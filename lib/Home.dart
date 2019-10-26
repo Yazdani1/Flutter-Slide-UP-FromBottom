@@ -125,9 +125,9 @@ class _HomeState extends State<Home> {
 
   Widget _panel(){
     return Container(
-      height: MediaQuery.of(context).size.height,
+      height: 600.0
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+
         children: <Widget>[
           SizedBox(height: 12.0,),
 
@@ -135,7 +135,7 @@ class _HomeState extends State<Home> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Container(
-                width: 100,
+                width: 50,
                 height: 5,
                 decoration: BoxDecoration(
                     color: Colors.white,
@@ -173,6 +173,7 @@ class _HomeState extends State<Home> {
             ],
           ),
 
+
           SizedBox(height: 36.0,),
 
           Container(
@@ -209,9 +210,6 @@ class _HomeState extends State<Home> {
           ),
 
           SizedBox(height: 36.0,),
-
-
-
 
         ],
       ),
