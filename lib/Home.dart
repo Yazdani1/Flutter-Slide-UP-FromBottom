@@ -15,6 +15,7 @@ class _HomeState extends State<Home> {
     return new Scaffold(
       appBar: AppBar(
         title: Text("SlidingUpPanelExample"),
+        backgroundColor: Colors.deepOrange,
       ),
       body: SlidingUpPanel(
 
@@ -179,9 +180,10 @@ class _HomeState extends State<Home> {
           Container(
             padding: const EdgeInsets.only(left: 24.0, right: 24.0),
             child: Column(
+    crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
 
-                Text("Images", style: TextStyle(fontWeight: FontWeight.w600,)),
+                Text("Images", style: TextStyle(fontWeight: FontWeight.w600,color: Colors.white)),
 
                 SizedBox(height: 12.0,),
 
